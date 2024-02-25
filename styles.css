@@ -243,7 +243,6 @@ margin: 20px 60px;
     border-radius: 15px;
     display: grid;
     justify-items: center;
-    grid-column-start: 1/2;
  }
  #plan a {
     width: 60%;
@@ -484,7 +483,7 @@ select {
         grid-column: 1/ span 2;
         position: static;
         margin: 0 auto;
-        padding: none;
+        padding: 0;
 
     }
     #menu-toggle ul {
@@ -630,12 +629,12 @@ grid-template-rows: 1fr;
     
  }
  #contact h3 {
-display: flex;
+position: relative;
+right:235px;
  }
 form {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1/2;
     column-gap: 5px;
     justify-content: center;
 }
